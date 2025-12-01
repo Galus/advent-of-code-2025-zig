@@ -1,0 +1,9 @@
+main.zig:2:21: error: no module named '_01' available within module 'main'
+const _01 = @import("_01");
+                    ^~~~~
+referenced by:
+    main: main.zig:7:9
+    callMain [inlined]: /usr/local/Cellar/zig/0.15.1/lib/zig/std/start.zig:627:37
+    callMainWithArgs [inlined]: /usr/local/Cellar/zig/0.15.1/lib/zig/std/start.zig:587:20
+    main: /usr/local/Cellar/zig/0.15.1/lib/zig/std/start.zig:602:28
+    1 reference(s) hidden; use '-freference-trace=5' to see all references
